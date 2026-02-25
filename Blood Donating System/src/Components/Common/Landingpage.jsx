@@ -1,9 +1,12 @@
 import React from "react";
-import img from "../../assets/bg.jpg";
-import "../Styles/Landingpage.css";
+import "../Styles/Landingpage.css"
+import Nav from "./Nav"
 function Landingpage() {
   return (
+    <div>
+<Nav/>
     <div className="bgimage">
+      {/* <img src={img} alt="" /> */}
       <h1>
         <strong>BLOOD DONOR AVAILABILITY SYSTEM</strong>
       </h1>
@@ -12,6 +15,8 @@ function Landingpage() {
         <button type="button" class="btn btn-success">Acceptor Registration</button>
       </div>
     </div>
+        </div>
+
   );
 }
 
