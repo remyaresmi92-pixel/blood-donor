@@ -1,10 +1,11 @@
 .bgimage {
   background-repeat: no-repeat;
   height: 100vh;
-  width: 100%;
-  background-image: url("../../assets/bg.jpg");
+  width: 100%; 
+  background-image: url("../../assets/backpic.jpg");
   background-size: cover;
 }
+
 h1 {
   font-style: italic;
   color: red;
